@@ -17,5 +17,5 @@ Finally, to avoid managing multiple terminals, I wrote a Launch file (my_first.l
 
 I was about to apply namespaces to handle multiple robots, but my brain reached its absolute limit. I'm wrapping up for today to get some proper rest. Despite all the hurdles, writing and running topics, services, actions, and launch files with my own hands made it a truly rewarding day. Ready to tackle the rest tomorrow!
 
-Author: Jingu Tr.Lee (KNU)
+Author; Jingu Tr.Lee (KNU)
 ---
