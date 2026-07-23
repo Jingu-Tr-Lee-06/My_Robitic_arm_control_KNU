@@ -5,13 +5,13 @@ Today was another exhausting day dealing with TurtleBots and robotic arms. Start
 
 I completely rewrote the files and successfully built an OpenCV-based color tracking node (color_tracker.py) without any errors. Seeing it initialize cleanly gave me a huge sense of relief.
 
-Riding that momentum, I dove into the core ROS 2 communication architecture:
+Riding that momentum, I dove into the core ROS 2 communication architecture;
 
-Topics: Created Publisher and Subscriber nodes for asynchronous streaming communication (/my_message), seeing counts tick smoothly every 0.5 seconds.
+Topics; Created Publisher and Subscriber nodes for asynchronous streaming communication (/my_message), seeing counts tick smoothly every 0.5 seconds.
 
-Services: Implemented a synchronous 1:1 request/response server and client using AddTwoInts.
+Services; Implemented a synchronous 1:1 request/response server and client using AddTwoInts.
 
-Actions: Mastered asynchronous long-running tasks with feedback and result handling using the Fibonacci action interface.
+Actions; Mastered asynchronous long-running tasks with feedback and result handling using the Fibonacci action interface.
 
 Finally, to avoid managing multiple terminals, I wrote a Launch file (my_first.launch.py). Of course, a minor mismatch with the .launch.py extension threw a path error initially, but once corrected and rebuilt, launching both publisher and subscriber with a single command worked like magic.
 
