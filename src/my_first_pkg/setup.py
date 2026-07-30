@@ -41,6 +41,8 @@ setup(
             "my_client = my_first_pkg.my_client:main",
             "my_action_server = my_first_pkg.my_action_server:main",
             "my_action_client = my_first_pkg.my_action_client:main",
+            "random_move = my_first_pkg.random_move:main",
+            "teaching_playback = my_first_pkg.teaching_playback:main",
         ],
     },
 )
